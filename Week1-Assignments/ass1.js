@@ -6,7 +6,5 @@ if(a>b){
 }else{
     console.log("b is the big number")
 }
-
-
 //another way
 console.log(a>b?"a is big number":"b is big number")
