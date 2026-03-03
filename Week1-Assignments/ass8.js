@@ -53,9 +53,9 @@ console.log(employess)
 
 //3  change the last mark 95 to 75 of emp "sneha"
 for(let v of employess){
-    if(v.name=="sneha"){
+    if(v.name==="sneha"){
         for(let k in v.marks){
-            if(v.marks[k]==95){
+            if(v.marks[k]===95){
                 v.marks[k]=75;
             }
         }
